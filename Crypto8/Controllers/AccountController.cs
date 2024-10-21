@@ -1,11 +1,11 @@
 ﻿using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
-using DataAccess;
 using System.IdentityModel.Tokens.Jwt;
 using System.Text;
 using JwtRegisteredClaimNames = Microsoft.IdentityModel.JsonWebTokens.JwtRegisteredClaimNames;
 using System.Security.Claims;
 using Microsoft.IdentityModel.Tokens;
+using DataAccess.Models;
 
 namespace Crypto8.Controllers
 {
